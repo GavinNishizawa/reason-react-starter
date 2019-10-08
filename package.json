@@ -12,6 +12,8 @@
     "serve-build": "cd build && python3 -m http.server --bind localhost 8001"
   },
   "keywords": [
+    "reasonml",
+    "react",
     "BuckleScript"
   ],
   "author": "",
