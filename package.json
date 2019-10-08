@@ -1,0 +1,40 @@
+{
+  "name": "reason-react-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "HOST=localhost react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "bsb:build": "bsb -make-world",
+    "bsb:start": "bsb -make-world -w",
+    "bsb:clean": "bsb -clean-world",
+    "serve-build": "cd build && python3 -m http.server --bind localhost 8001"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
+    "reason-react": ">=0.7.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^5.0.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
